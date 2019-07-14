@@ -1,0 +1,50 @@
+.contenedor{
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "datos-personales   jumbotron   jumbotron"
+                       "datos-personales   navegador   navegador"
+                       "datos-personales   estudios-realizados     estudios-realizados"
+                       "datos-personales   cursos-realizados       cursos-realizados"
+                       "pies-pagina        pies-pagina             pies-pagina";
+}
+.contenedor .datos-personales{
+  grid-column-start: datos-personales;
+  grid-column-end: datos-personales;
+  grid-row-start: datos-personales;
+  grid-row-end: datos-personales;
+}
+.contenedor .jumbotron{
+  grid-column-start: jumbotron;
+  grid-column-end: jumbotron;
+  grid-row-start: jumbotron;
+  grid-row-end: jumbotron;
+  justify-self: stretch;
+  align-self: stretch;
+}
+.contenedor .navegador{
+  grid-column-start: navegador;
+  grid-column-end: navegador;
+}
+.contenedor .estudios-realizados{
+  grid-column-start: estudios-realizados;
+  grid-column-end: estudios-realizados;
+  grid-row-start: estudios-realizados;
+  grid-row-end: estudios-realizados;
+}
+.contenedor .cursos-realizados{
+  grid-column-start: cursos-realizados;
+  grid-column-end: cursos-realizados;
+  grid-row-start: cursos-realizados;
+  grid-row-end: cursos-realizados;
+  
+}
+.contenedor .pies-pagina{
+  grid-column-start: pies-pagina;
+  grid-column-end: pies-pagina;
+  grid-row-start: pies-pagina;
+  grid-row-end: pies-pagina
+}
