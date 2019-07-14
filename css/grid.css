@@ -40,7 +40,6 @@
   grid-column-end: cursos-realizados;
   grid-row-start: cursos-realizados;
   grid-row-end: cursos-realizados;
-  
 }
 .contenedor .pies-pagina{
   grid-column-start: pies-pagina;
