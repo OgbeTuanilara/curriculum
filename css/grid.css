@@ -47,3 +47,13 @@
   grid-row-start: pies-pagina;
   grid-row-end: pies-pagina
 }
+@media screen and (max-width: 600px){
+.contenedor{grid-template-areas: 
+  "jumbotron jumbotron jumbotron"
+  "navegador navegador navegador"
+  "datos-personales datos-personales datos-personales"
+  "estudios-realizados  estudios-realizados  estudios-realizados"
+  " cursos-realizados cursos-realizados  cursos-realizados"
+  "pies-pagina pies-pagina  pies-pagina";
+}
+}

@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="adipoli/adipoli.css">
+  <script src="adipoli/jquery.adipoli.min.js"></script>
+  <script src="adipoli/jquery.adipoli.js"></script>
 </head>
 <body>
 <div class="contenedor">
@@ -28,46 +31,46 @@
   </nav>
 <section class="datos-personales">
   <div>
-    <img class="foto img-fluid animated pulse infinite" src="img/FOTO.jpg" alt="">
-    <h4 class="mt-5">Datos Personales</h4>
-  <p><i class="fa fa-user text-info mr-3 mt-3"></i>José Pérez</p>
+    <img id="foto" class="foto img-fluid" src="img/FOTO.jpg" alt="">
+    <h4 class="dato mt-5">Datos Personales</h4>
+  <p class="dato1"><i class="dato1 fa fa-user text-info mr-3 mt-3"></i>José Pérez</p>
 </div>
-  <p><i class="fa fa-id-card text-info mr-3"></i>V-17.967.649</p>
-  <p><i class="tama fa fa-briefcase text-info mr-3"></i>Programador Web.</p>
-  <p><i class="fa fa-home text-info mr-3"></i><a class="text-dark" href="img/direccion.jpg">Habitación</a></p>
-  <p><i class="fa fa-envelope mr-3 text-info"></i>perezsosa_141@hotmail.com</p>
-  <p><i class="fa fa-phone text-info mr-3"></i>0424-496-17-72</p>
-<p><i class="fa fa-calendar text-info mr-3"></i>08/08/83</p>
+  <p class="dato2"><i class="fa fa-id-card text-info mr-3"></i>V-17.967.649</p>
+  <p class="dato3"><i class="tama fa fa-briefcase text-info mr-3"></i>Programador Web.</p>
+  <p class="dato4"><i class="fa fa-home text-info mr-3"></i><a class="text-info" href="img/direccion.jpg">Habitación</a></p>
+  <p class="dato5"><i class="fa fa-envelope mr-3 text-info"></i>perezsosa_141@hotmail.com</p>
+  <p class="dato6"><i class="fa fa-phone text-info mr-3"></i>0424-496-17-72</p>
+<p class="dato7"><i class="fa fa-calendar text-info mr-3"></i>08/08/83</p>
 <br>
-<h4 id="habilidad" class=" mb-3 text-center">Habilidades y Herramientas:</h4>
+<h4 id="habilidad" class="dato8 mb-3 text-center">Habilidades y Herramientas:</h4>
 <ul>
-  <li><i class="fa fa-html5 text-info"></i><br>
+  <li><i class="dato9 fa fa-html5 text-info"></i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-success text-center" style="width: 75%">75%</div></div>
+    <div class="dato9 text-white bg-success text-center" style="width: 75%">75%</div></div>
   </li>
-  <li><i class="fa fa-css3 text-info"></i><br>
+  <li><i class="dato10 fa fa-css3 text-info"></i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-success text-center" style="width: 75%">75%</div></div>
+    <div class="dato10 text-white bg-success text-center" style="width: 75%">75%</div></div>
   </li>
-  <li><i class="text-info">JavaScript</i><br>
+  <li><i class="dato11 text-info">JavaScript</i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-warning text-center" style="width: 50%">50%</div></div>
+    <div class="dato11 text-white bg-warning text-center" style="width: 50%">50%</div></div>
   </li>
-  <li><i class="text-info">PHP</i><br>
+  <li><i class="dato12 text-info">PHP</i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-danger text-center" style="width: 25%">25%</div></div>
+    <div class="dato12 text-white bg-danger text-center" style="width: 25%">25%</div></div>
   </li>
-  <li><i class="text-info">MYSQL</i><br>
+  <li><i class="dato13 text-info">MYSQL</i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-danger text-center" style="width: 25%">25%</div></div>
+    <div class="dato13 text-white bg-danger text-center" style="width: 25%">25%</div></div>
   </li>
-  <li><i class="text-info">Bootstrap 4</i><br>
+  <li><i class="dato14 text-info">Bootstrap 4</i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-success text-center" style="width: 60%">60%</div></div>
+    <div class="dato14 text-white bg-success text-center" style="width: 60%">60%</div></div>
   </li>
-  <li><i class="fa fa-git text-info"></i><br>
+  <li><i class="dato15 fa fa-git text-info"></i><br>
     <div class="barra bg-dark">
-    <div class="text-white bg-success text-center" style="width: 90%">90%</div></div>
+    <div class="dato15 text-white bg-success text-center" style="width: 90%">90%</div></div>
   </li>
 </ul>
 </section>
@@ -75,12 +78,6 @@
 <section class="estudios-realizados">
   <h1 class="text4" ><i class=" fas fa-school"></i>Estudio Realizados</h1>
     <ul>
-      <li>
-          <h5 class="text5">Primaria:</h5>
-        <p class="text5"><i class="abe fa fa-graduation-cap"></i>
-            “Escuela Nacional Mariara”
-        </p>  
-      </li>
       <li>
         <h5 class="text5">Secundaria:</h5>
         <p class="text5"> “Unidad Educativa Centro Moderno Educativo”</p>
@@ -127,5 +124,6 @@
 <script src="js/scroll.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="js/Revel.js"></script>
+<script src="js/adipoli.js"></script>
 </body>
 </html>

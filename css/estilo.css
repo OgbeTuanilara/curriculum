@@ -16,7 +16,8 @@
   margin: 0 10px;
 }
 .datos-personales .foto{
-  width: 100%;
+  width: 60%;
+  margin: 0 20%;
   max-height: 300px;
 }
 .datos-personales{
