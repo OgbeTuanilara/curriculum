@@ -104,87 +104,93 @@ sr.reveal('.text16', {
 sr.reveal('.dato', {
     duration: 2000,
     origin: 'top',
-    delay: 1500
+    delay: 1000
 });
 sr.reveal('.dato1', {
     duration: 2000,
     origin: 'top',
-    delay: 1600
+    delay: 1100
 });
 sr.reveal('.dato2', {
     duration: 2000,
     origin: 'top',
-    delay: 1700
+    delay: 1200
 });
 sr.reveal('.dato3', {
     duration: 2000,
     origin: 'top',
-    delay: 1800
+    delay: 1300
 });
 sr.reveal('.dato4', {
     duration: 2000,
     origin: 'top',
-    delay: 1900
+    delay: 1400
 });
 sr.reveal('.dato5', {
     duration: 2000,
     origin: 'top',
-    delay: 2000
+    delay: 1500
 });
 sr.reveal('.dato6', {
     duration: 2000,
     origin: 'top',
-    delay: 2100
+    delay: 1600
 });
 sr.reveal('.dato7', {
     duration: 2000,
     origin: 'top',
-    delay: 2200
+    delay: 1700
 });
 sr.reveal('.dato8', {
     duration: 2000,
     origin: 'top',
-    delay: 2300
+    delay: 1800
 });
 sr.reveal('.dato9', {
     duration: 2000,
     origin: 'top',
-    delay: 2400
+    delay: 1900
 });
 sr.reveal('.dato10', {
     duration: 2000,
     origin: 'top',
-    delay: 2500
+    delay: 2000
 });
 sr.reveal('.dato11', {
     duration: 2000,
     origin: 'top',
-    delay: 2600
+    delay: 2100
 });
 sr.reveal('.dato12', {
     duration: 2000,
     origin: 'top',
-    delay: 2700
+    delay: 2200
 });
 sr.reveal('.dato13', {
     duration: 2000,
     origin: 'top',
-    delay: 2800
+    delay: 2300
 });
 sr.reveal('.dato14', {
     duration: 2000,
     origin: 'top',
-    delay: 2900
+    delay: 2400
 });
 sr.reveal('.dato15', {
     duration: 2000,
     origin: 'top',
-    delay: 3000
+    delay: 2500
 });
 sr.reveal('.pies-pagina',{
     duration: 2000,
     origin: 'top',
     distance: '300px',
     delay: 2000
+});
+sr.reveal('#foto',{
+    duration: 2000,
+    origin: 'left',
+    distance: '300px',
+    delay: 1000
 });
 });
