@@ -6,13 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Curriculum Vitae</title>
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="adipoli/adipoli.css">
-  <script src="adipoli/jquery.adipoli.min.js"></script>
-  <script src="adipoli/jquery.adipoli.js"></script>
-</head>
+  </head>
 <body>
 <div class="contenedor">
   <div class="jumbotron jumbotron-fluid bg-info">
@@ -31,7 +29,7 @@
   </nav>
 <section class="datos-personales">
   <div>
-    <img id="foto" class="foto img-fluid" src="img/FOTO.jpg" alt="">
+    <img id="foto" class="foto img-fluid animated pulse adipoli-wrapper" src="img/FOTO.jpg" alt="">
     <h4 class="dato mt-5">Datos Personales</h4>
   <p class="dato1"><i class="dato1 fa fa-user text-info mr-3 mt-3"></i>José Pérez</p>
 </div>
@@ -44,6 +42,10 @@
 <br>
 <h4 id="habilidad" class="dato8 mb-3 text-center">Habilidades y Herramientas:</h4>
 <ul>
+  <li><i class="dato15 fa fa-git text-info"></i><br>
+    <div class="barra bg-dark">
+    <div class="dato15 text-white bg-success text-center" style="width: 90%">90%</div></div>
+  </li>
   <li><i class="dato9 fa fa-html5 text-info"></i><br>
     <div class="barra bg-dark">
     <div class="dato9 text-white bg-success text-center" style="width: 75%">75%</div></div>
@@ -51,6 +53,10 @@
   <li><i class="dato10 fa fa-css3 text-info"></i><br>
     <div class="barra bg-dark">
     <div class="dato10 text-white bg-success text-center" style="width: 75%">75%</div></div>
+  </li>
+  <li><i class="dato14 text-info">Bootstrap 4</i><br>
+    <div class="barra bg-dark">
+    <div class="dato14 text-white bg-success text-center" style="width: 60%">60%</div></div>
   </li>
   <li><i class="dato11 text-info">JavaScript</i><br>
     <div class="barra bg-dark">
@@ -68,10 +74,7 @@
     <div class="barra bg-dark">
     <div class="dato14 text-white bg-success text-center" style="width: 60%">60%</div></div>
   </li>
-  <li><i class="dato15 fa fa-git text-info"></i><br>
-    <div class="barra bg-dark">
-    <div class="dato15 text-white bg-success text-center" style="width: 90%">90%</div></div>
-  </li>
+  
 </ul>
 </section>
 <!--estudios realizados-->
@@ -124,6 +127,6 @@
 <script src="js/scroll.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="js/Revel.js"></script>
-<script src="js/adipoli.js"></script>
+
 </body>
 </html>
