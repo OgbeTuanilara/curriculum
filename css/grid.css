@@ -1,3 +1,4 @@
+
 .contenedor{
   width: 90%;
   margin: 20px auto;
@@ -18,12 +19,12 @@
   grid-row-end: datos-personales;
 }
 .contenedor .jumbotron{
+  
   grid-column-start: jumbotron;
   grid-column-end: jumbotron;
   grid-row-start: jumbotron;
   grid-row-end: jumbotron;
-  justify-self: stretch;
-  align-self: stretch;
+
 }
 .contenedor .navegador{
   grid-column-start: navegador;

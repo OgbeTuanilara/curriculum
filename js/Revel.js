@@ -1,6 +1,13 @@
 $(document).ready(function(){
 window.sr = ScrollReveal();
-//las fotos de index.html
+// foto colun izq
+sr.reveal('#foto',{
+    duration: 2000,
+    origin: 'left',
+    distance: '300px',
+    delay: 1000
+});
+// plantilla curriculum
 sr.reveal('.jumbotron', {
         duration: 2000,
         origin: 'top',
@@ -8,14 +15,13 @@ sr.reveal('.jumbotron', {
 });
 sr.reveal('.text', {
     duration: 2000,
-    origin: 'right',
     delay: 1000
 });
 sr.reveal('.text1', {
     duration: 2000,
-    origin: 'right',
     delay: 1200
 });
+//caja nav
 sr.reveal('.navegador', {
     duration: 2000,
     origin: 'right',
@@ -31,6 +37,7 @@ sr.reveal('.text3', {
     origin: 'right',
     delay: 1100
 });
+//caja estudio realizado
 sr.reveal('.estudios-realizados', {
     duration: 2000,
     origin: 'right',
@@ -189,12 +196,6 @@ sr.reveal('.dato15', {
 sr.reveal('.pies-pagina',{
     duration: 2000,
     origin: 'top',
-    distance: '300px',
-    delay: 2000
-});
-sr.reveal('#foto',{
-    duration: 2000,
-    origin: 'left',
     distance: '300px',
     delay: 1000
 });
