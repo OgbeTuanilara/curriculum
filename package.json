@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "animated": "^0.2.2",
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "scrollreveal": "^4.0.5"
   }
 }

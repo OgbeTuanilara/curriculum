@@ -14,7 +14,7 @@ sr.reveal('.text', {
 sr.reveal('.text1', {
     duration: 2000,
     origin: 'right',
-    delay: 1500
+    delay: 1200
 });
 sr.reveal('.navegador', {
     duration: 2000,
@@ -32,6 +32,11 @@ sr.reveal('.text3', {
     delay: 1100
 });
 sr.reveal('.estudios-realizados', {
+    duration: 2000,
+    origin: 'right',
+    distance: "300px"
+});
+sr.reveal('.datos-personales', {
     duration: 2000,
     origin: 'left',
     distance: "300px"

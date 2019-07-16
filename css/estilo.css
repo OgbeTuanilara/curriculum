@@ -8,12 +8,14 @@
   background: #eeeeee;
 }
 .navegador{
+  display: flex;
   box-shadow: 2px 2px 5px black,
               -1px -1px 3px black;
 }
 .navegador > ul > li > a{
   color: white;
-  margin: 0 10px;
+  justify-content: space-between;
+  text-align: center;
 }
 .datos-personales .foto{
   width: 60%;
