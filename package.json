@@ -16,5 +16,8 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
     "scrollreveal": "^4.0.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
